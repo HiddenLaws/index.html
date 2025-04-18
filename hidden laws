@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Hidden Laws – Alexander</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f6f8f9;
+      color: #1a1a1a;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+      transition: background 1s ease;
+    }
+    header, section, footer {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    header img.logo {
+      max-width: 120px;
+      margin-bottom: 20px;
+      display: block;
+      animation: fadeIn 2s ease-in-out;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    h2 {
+      font-size: 1.8em;
+      margin-top: 2em;
+      color: #5b3b99;
+      animation: slideIn 1s ease-in-out;
+    }
+    h3 {
+      font-size: 1.4em;
+      margin-bottom: 0.5em;
+      color: #5b3b99;
+    }
+    p {
+      font-size: 1.1em;
+      margin-bottom: 1em;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+    .btn {
+      background: #5b3b99;
+      color: #ffffff;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 10px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #7a5fbd;
+    }
+    .service {
+      background-color: #ffffff;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 20px rgba(91, 59, 153, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: fadeInUp 1.2s ease-in-out;
+    }
+    .service:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 30px rgba(91, 59, 153, 0.2);
+    }
+    footer {
+      border-top: 1px solid #ccc;
+      text-align: center;
+      font-size: 0.9em;
+      color: #555;
+      animation: fadeIn 2s ease-in-out;
+    }
+    a {
+      color: #5b3b99;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideIn {
+      from { transform: translateX(-50px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2em;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 1em;
+      }
+      .btn {
+        width: 100%;
+        text-align: center;
+        padding: 14px;
+      }
+      header, section, footer {
+        padding: 20px 16px;
+      }
+      .service {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./logo.png" alt="The Hidden Laws Logo" class="logo">
+    <h1>The Hidden Laws</h1>
+    <p>Energetic Services for Real-Time Support, Deep Reset & High-Level Transformation</p>
+  </header>
+
+  <section>
+    <h2>🔹 Urgent Energetic Session</h2>
+    <div class="service">
+      <p><strong>Price:</strong> $500 — Response within 1–3 hours</p>
+      <p>Remote energetic tuning to support emotional overwhelm, spiritual disconnection, or physical distress. Includes optional voice/text exchange.</p>
+      <a href="https://calendly.com/YOUR_LINK_HERE" class="btn">Request Session</a>
+    </div>
+
+    <h2>🔹 Energetic Clearance Session</h2>
+    <div class="service">
+      <p><strong>Price:</strong> $350 — Duration: ~90 minutes</p>
+      <p>Releases emotional residue, energetic interference, or blockages. For clarity, relief, and restoration of flow.</p>
+      <a href="https://calendly.com/YOUR_LINK_HERE" class="btn">Book Clearance</a>
+    </div>
+
+    <h2>🔹 Custom Evolution Package</h2>
+    <div class="service">
+      <p><strong>Starting at:</strong> $3,500 — Duration: 4–6 weeks</p>
+      <p>Multi-session journey with ongoing field tuning and support. Designed to meet your unique transformational needs.</p>
+      <a href="mailto:a_dmytruk@hotmail.com" class="btn">Request Custom Path</a>
+    </div>
+
+    <h2>🔹 The Brain Evolution Code</h2>
+    <div class="service">
+      <p><strong>Price:</strong> $100,000–$200,000 — By application only</p>
+      <p>Elite transformation container for visionary leaders and high performers. Includes neurological, energetic, and identity re-alignment.</p>
+      <a href="mailto:a_dmytruk@hotmail.com" class="btn">Apply for Evolution Code</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>👤 About Alexander</h2>
+    <p>Alexander is a field-based energetic strategist known for bringing clarity and stability in moments of personal and spiritual transition. His work bridges unseen intelligence with practical, grounded change—ideal for those seeking real results beyond talk or theory.</p>
+    <p>Whether working with sudden overwhelm or long-term transformation, Alexander offers a presence that is both subtle and catalytic.</p>
+  </section>
+
+  <footer>
+    <p>Contact: <a href="mailto:a_dmytruk@hotmail.com">a_dmytruk@hotmail.com</a></p>
+    <p>© 2025 The Hidden Laws. All rights reserved.</p>
+  </footer>
+</body>
+</html>
